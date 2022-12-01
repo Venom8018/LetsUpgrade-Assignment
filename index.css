@@ -3,9 +3,7 @@
     padding: 0;
   
 }
-body{
-    background-image: url("background.jpg");
-}
+
 #nav{
     color: rgb(70, 8, 141);
     margin: 40px;
@@ -17,25 +15,19 @@ body{
    
 }
 #container{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
     font-size: x-large;
-    padding: 100px;
-    
 }
 .head{
     margin: 90px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
 }
 img{
     width: 30%;
 }
 a{
     color: blueviolet;
+    padding: 20px;
+}
+h1 , h5{
+    padding: 20px;
 }
